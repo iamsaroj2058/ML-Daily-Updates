@@ -1,0 +1,71 @@
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+.dailyml/
+dailyml/
+*.env
+
+# Conda environment folders
+conda_env/
+*.conda
+*.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow model files
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Dataset files (optional – remove if you want to track)
+data/
+datasets/
+*.csv
+*.xlsx
+*.zip
+
+# Cached files
+.cache/
+*.cache/
+
+# VS Code settings
+.vscode/
+.history/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Build files
+build/
+dist/
+*.spec
+
+# Reports
+*.html
+*.pdf
+
+# Test outputs
+.coverage
+.pytest_cache/
+
+# Logs
+*.log
+logs/
